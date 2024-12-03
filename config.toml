@@ -1,15 +1,31 @@
 site_title = "MyArxiv"
 limit_days = 7
+# cache_url = "https://julycrow.github.io/MyArxiv/cache.json"
 cache_url = "https://cl12312.github.io/MyArxiv/cache.json"
 
 [[sources]]
-limit = 150
-category = "cs.RO"
-title = "SLAM"
+limit = 1500
+category = "cs.CV"
+title = "Computer Vision and Pattern Recognition"
 
+# [[sources]]
+# limit = 150
+# category = "cs.CV"
+# title = "hd map "
 
+# [[sources]]
+# limit = 150
+# category = "cs.CV"
+# title = "map learning drive"
+
+# [[sources]]
+# limit = 150
+# category = "cs.CV"
+# title = "Lane Segment"
 
 [scripts]
 highlight_title = "scripts/highlight_title.rhai"
 highlight_author = "scripts/highlight_author.rhai"
 highlight_conference = "scripts/highlight_conference.rhai"
+match_title =  "scripts/match_title.rhai"
+count_highlight = "scripts/count_highlight.rhai
