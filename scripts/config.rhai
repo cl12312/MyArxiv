@@ -1,6 +1,6 @@
-let titles_type = ["Dataset", "Survey", "Review", "Overview"];
-let titles_model = ["BERT", "GPT", "Transformer"];
-let titles_method = ["Pre-train", "Pretrain", "Prompt", "Self-Supervised"];
+let titles_type = [];
+let titles_model = ["SLAM"];
+let titles_method = [];
 let titles =  titles_model + titles_method + titles_type;
 let authors_array = ["Yann LeCun", "Geoffrey Hinton", "Yoshua Bengio"];
 
@@ -38,3 +38,8 @@ let authors_rg = authors_array.reduce(|sum, v| sum + "|" + v, start);
 export title_rg;
 export authors_rg;
 export conferences_rg;
+
+// Function to check if an article should be highlighted
+//fn isHighlighted(title, authors, conference) {
+//    return title.match(title_rg) || authors.match(authors_rg) || conference.match(conferences_rg);
+//}
