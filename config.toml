@@ -8,6 +8,11 @@ limit = 1500
 category = "cs.CV"
 title = "Computer Vision and Pattern Recognition"
 
+[[sources]]
+limit = 1500
+category = "cs.RO"
+title = "Robotics"
+
 # [[sources]]
 # limit = 150
 # category = "cs.CV"
