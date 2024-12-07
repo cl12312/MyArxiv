@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MyArxiv</title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="robots" content="noindex, nofollow"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+    <link href="index.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css"
+          integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css"
+          integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"
+            integrity="sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx"
+            crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js"
+            integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR"
+            crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            renderMathInElement(document.body, {
+                // customised options
+                // • auto-render specific keys, e.g.:
+                delimiters: [
+                    {left: '$$', right: '$$', display: true},
+                    {left: '$', right: '$', display: false},
+                    {left: '\\(', right: '\\)', display: false},
+                    {left: '\\[', right: '\\]', display: true},
+                    {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+                    {left: "\\begin{align}", right: "\\end{align}", display: true},
+                    {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+                    {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+                    {left: "\\begin{CD}", right: "\\end{CD}", display: true},
+                ],
+                // • rendering keys, e.g.:
+                throwOnError: false
+            });
+        });
+    </script>
+</head>
+
+<body>
+<section class="header-container">
+    <div style="display:flex; justify-content:space-between; align-items:flex-end;">
+        <div>
+            <div class="header-title">
+                MyArxiv
+            </div>
+        </div>
+
+        <div class=icons>
+            <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox"/>
+                <i id="theme-icon" class="ri-moon-line" style="font-size: 32px" rel="noopener noreferrer"></i>
+            </label>
+        </div>
+    </div>
+</section>
+
+    <section class="day-container">
+        <div class="date">
+            <time datetime="2024-12-05T00:00:00Z">2024-12-05</time>
+        </div>
+            <article>
+                <details>
+                    <Summary>
+                        Computer Vision and Pattern Recognition <span class="chip" style="font-size: 60%">0</span>
+                    </Summary>
+                    <div class="details-content">
+                    </div>
+                </details>
+            </article>
+            <article>
+                <details>
+                    <Summary>
+                        Robotics <span class="chip" style="font-size: 60%">0</span>
+                    </Summary>
+                    <div class="details-content">
+                    </div>
+                </details>
+            </article>
+    </section>
+    <section class="day-container">
+        <div class="date">
+            <time datetime="2024-12-04T00:00:00Z">2024-12-04</time>
+        </div>
+            <article>
+                <details>
+                    <Summary>
+                        Computer Vision and Pattern Recognition <span class="chip" style="font-size: 60%">2</span>
+                    </Summary>
+                    <div class="details-content">
+                            <article>
+                                <details class="article-expander">
+                                    <summary class="article-expander-title">
+                                         ☆ NeRF and Gaussian Splatting <span class="highlight-title">SLAM</span> in the Wild 
+                                    </summary>
+                                    <div class="article-authors">
+                                        <a href="http://arxiv.org/abs/2412.03263v1">
+                                            <i class="ri-links-line"></i>
+                                        </a>
+                                        <a href="https://arxiv.org/pdf/2412.03263v1.pdf">
+                                            <i class="ri-file-paper-2-line"></i>
+                                        </a>
+                                        Fabian Schmidt, Markus Enzweiler, Abhinav Valada
+                                    </div>
+                                    <div class="article-summary-box-inner">
+                                        <span>  Navigating outdoor environments with visual Simultaneous Localization and
+Mapping (SLAM) systems poses significant challenges due to dynamic scenes,
+lighting variations, and seasonal changes, requiring robust solutions. While
+traditional SLAM methods struggle with adaptability, deep learning-based
+approaches and emerging neural radiance fields as well as Gaussian
+Splatting-based SLAM methods, offer promising alternatives. However, these
+methods have primarily been evaluated in controlled indoor environments with
+stable conditions, leaving a gap in understanding their performance in
+unstructured and variable outdoor settings. This study addresses this gap by
+evaluating these methods in natural outdoor environments, focusing on camera
+tracking accuracy, robustness to environmental factors, and computational
+efficiency, highlighting distinct trade-offs. Extensive evaluations demonstrate
+that neural SLAM methods achieve superior robustness, particularly under
+challenging conditions such as low light, but at a high computational cost. At
+the same time, traditional methods perform the best across seasons but are
+highly sensitive to variations in lighting conditions. The code of the
+benchmark is publicly available at
+https://github.com/iis-esslingen/nerf-3dgs-benchmark.
+</span>
+                                    </div>
+                                        <div class="article-summary-box-inner">
+                                            <span class="chip">comment</span>: <span>5 pages, 2 figures, 4 tables</span>
+                                        </div>
+                                </details>
+                            </article>
+                            <article>
+                                <details class="article-expander">
+                                    <summary class="article-expander-title">
+                                        ♻ ☆ RGBDS-<span class="highlight-title">SLAM</span>: A RGB-D Semantic Dense <span class="highlight-title">SLAM</span> Based on 3D Multi Level Pyramid
+  Gaussian Splatting 
+                                    </summary>
+                                    <div class="article-authors">
+                                        <a href="http://arxiv.org/abs/2412.01217v2">
+                                            <i class="ri-links-line"></i>
+                                        </a>
+                                        <a href="https://arxiv.org/pdf/2412.01217v2.pdf">
+                                            <i class="ri-file-paper-2-line"></i>
+                                        </a>
+                                        Zhenzhong Cao, Chenyang Zhao, Qianyi Zhang, Jinzheng Guang, Yinuo Song Jingtai Liu
+                                    </div>
+                                    <div class="article-summary-box-inner">
+                                        <span>  High-quality reconstruction is crucial for dense SLAM. Recent popular
+approaches utilize 3D Gaussian Splatting (3D GS) techniques for RGB, depth, and
+semantic reconstruction of scenes. However, these methods often overlook issues
+of detail and consistency in different parts of the scene. To address this, we
+propose RGBDS-SLAM, a RGB-D semantic dense SLAM system based on 3D multi-level
+pyramid gaussian splatting, which enables high-quality dense reconstruction of
+scene RGB, depth, and semantics.In this system, we introduce a 3D multi-level
+pyramid gaussian splatting method that restores scene details by extracting
+multi-level image pyramids for gaussian splatting training, ensuring
+consistency in RGB, depth, and semantic reconstructions. Additionally, we
+design a tightly-coupled multi-features reconstruction optimization mechanism,
+allowing the reconstruction accuracy of RGB, depth, and semantic maps to
+mutually enhance each other during the rendering optimization process.
+Extensive quantitative, qualitative, and ablation experiments on the Replica
+and ScanNet public datasets demonstrate that our proposed method outperforms
+current state-of-the-art methods. The open-source code will be available at:
+https://github.com/zhenzhongcao/RGBDS-SLAM.
+</span>
+                                    </div>
+                                </details>
+                            </article>
+                    </div>
+                </details>
+            </article>
+            <article>
+                <details>
+                    <Summary>
+                        Robotics <span class="chip" style="font-size: 60%">1</span>
+                    </Summary>
+                    <div class="details-content">
+                            <article>
+                                <details class="article-expander">
+                                    <summary class="article-expander-title">
+                                         ☆ NeRF and Gaussian Splatting <span class="highlight-title">SLAM</span> in the Wild 
+                                    </summary>
+                                    <div class="article-authors">
+                                        <a href="http://arxiv.org/abs/2412.03263v1">
+                                            <i class="ri-links-line"></i>
+                                        </a>
+                                        <a href="https://arxiv.org/pdf/2412.03263v1.pdf">
+                                            <i class="ri-file-paper-2-line"></i>
+                                        </a>
+                                        Fabian Schmidt, Markus Enzweiler, Abhinav Valada
+                                    </div>
+                                    <div class="article-summary-box-inner">
+                                        <span>  Navigating outdoor environments with visual Simultaneous Localization and
+Mapping (SLAM) systems poses significant challenges due to dynamic scenes,
+lighting variations, and seasonal changes, requiring robust solutions. While
+traditional SLAM methods struggle with adaptability, deep learning-based
+approaches and emerging neural radiance fields as well as Gaussian
+Splatting-based SLAM methods, offer promising alternatives. However, these
+methods have primarily been evaluated in controlled indoor environments with
+stable conditions, leaving a gap in understanding their performance in
+unstructured and variable outdoor settings. This study addresses this gap by
+evaluating these methods in natural outdoor environments, focusing on camera
+tracking accuracy, robustness to environmental factors, and computational
+efficiency, highlighting distinct trade-offs. Extensive evaluations demonstrate
+that neural SLAM methods achieve superior robustness, particularly under
+challenging conditions such as low light, but at a high computational cost. At
+the same time, traditional methods perform the best across seasons but are
+highly sensitive to variations in lighting conditions. The code of the
+benchmark is publicly available at
+https://github.com/iis-esslingen/nerf-3dgs-benchmark.
+</span>
+                                    </div>
+                                        <div class="article-summary-box-inner">
+                                            <span class="chip">comment</span>: <span>5 pages, 2 figures, 4 tables</span>
+                                        </div>
+                                </details>
+                            </article>
+                    </div>
+                </details>
+            </article>
+    </section>
+    <section class="day-container">
+        <div class="date">
+            <time datetime="2024-12-03T00:00:00Z">2024-12-03</time>
+        </div>
+            <article>
+                <details>
+                    <Summary>
+                        Computer Vision and Pattern Recognition <span class="chip" style="font-size: 60%">1</span>
+                    </Summary>
+                    <div class="details-content">
+                            <article>
+                                <details class="article-expander">
+                                    <summary class="article-expander-title">
+                                         ☆ ROVER: A Multi-Season Dataset for Visual <span class="highlight-title">SLAM</span> 
+                                    </summary>
+                                    <div class="article-authors">
+                                        <a href="http://arxiv.org/abs/2412.02506v1">
+                                            <i class="ri-links-line"></i>
+                                        </a>
+                                        <a href="https://arxiv.org/pdf/2412.02506v1.pdf">
+                                            <i class="ri-file-paper-2-line"></i>
+                                        </a>
+                                        Fabian Schmidt, Constantin Blessing, Markus Enzweiler, Abhinav Valada
+                                    </div>
+                                    <div class="article-summary-box-inner">
+                                        <span>  Robust Simultaneous Localization and Mapping (SLAM) is a crucial enabler for
+autonomous navigation in natural, unstructured environments such as parks and
+gardens. However, these environments present unique challenges for SLAM due to
+frequent seasonal changes, varying light conditions, and dense vegetation.
+These factors often degrade the performance of visual SLAM algorithms
+originally developed for structured urban environments. To address this gap, we
+present ROVER, a comprehensive benchmark dataset tailored for evaluating visual
+SLAM algorithms under diverse environmental conditions and spatial
+configurations. We captured the dataset with a robotic platform equipped with
+monocular, stereo, and RGB-D cameras, as well as inertial sensors. It covers 39
+recordings across five outdoor locations, collected through all seasons and
+various lighting scenarios, i.e., day, dusk, and night with and without
+external lighting. With this novel dataset, we evaluate several traditional and
+deep learning-based SLAM methods and study their performance in diverse
+challenging conditions. The results demonstrate that while stereo-inertial and
+RGB-D configurations generally perform better under favorable lighting and
+moderate vegetation, most SLAM systems perform poorly in low-light and
+high-vegetation scenarios, particularly during summer and autumn. Our analysis
+highlights the need for improved adaptability in visual SLAM algorithms for
+outdoor applications, as current systems struggle with dynamic environmental
+factors affecting scale, feature extraction, and trajectory consistency. This
+dataset provides a solid foundation for advancing visual SLAM research in
+real-world, natural environments, fostering the development of more resilient
+SLAM systems for long-term outdoor localization and mapping. The dataset and
+the code of the benchmark are available under
+https://iis-esslingen.github.io/rover.
+</span>
+                                    </div>
+                                        <div class="article-summary-box-inner">
+                                            <span class="chip">comment</span>: <span>17 pages, 7 figures, 11 tables</span>
+                                        </div>
+                                </details>
+                            </article>
+                    </div>
+                </details>
+            </article>
+            <article>
+                <details>
+                    <Summary>
+                        Robotics <span class="chip" style="font-size: 60%">1</span>
+                    </Summary>
+                    <div class="details-content">
+                            <article>
+                                <details class="article-expander">
+                                    <summary class="article-expander-title">
+                                         ☆ ROVER: A Multi-Season Dataset for Visual <span class="highlight-title">SLAM</span> 
+                                    </summary>
+                                    <div class="article-authors">
+                                        <a href="http://arxiv.org/abs/2412.02506v1">
+                                            <i class="ri-links-line"></i>
+                                        </a>
+                                        <a href="https://arxiv.org/pdf/2412.02506v1.pdf">
+                                            <i class="ri-file-paper-2-line"></i>
+                                        </a>
+                                        Fabian Schmidt, Constantin Blessing, Markus Enzweiler, Abhinav Valada
+                                    </div>
+                                    <div class="article-summary-box-inner">
+                                        <span>  Robust Simultaneous Localization and Mapping (SLAM) is a crucial enabler for
+autonomous navigation in natural, unstructured environments such as parks and
+gardens. However, these environments present unique challenges for SLAM due to
+frequent seasonal changes, varying light conditions, and dense vegetation.
+These factors often degrade the performance of visual SLAM algorithms
+originally developed for structured urban environments. To address this gap, we
+present ROVER, a comprehensive benchmark dataset tailored for evaluating visual
+SLAM algorithms under diverse environmental conditions and spatial
+configurations. We captured the dataset with a robotic platform equipped with
+monocular, stereo, and RGB-D cameras, as well as inertial sensors. It covers 39
+recordings across five outdoor locations, collected through all seasons and
+various lighting scenarios, i.e., day, dusk, and night with and without
+external lighting. With this novel dataset, we evaluate several traditional and
+deep learning-based SLAM methods and study their performance in diverse
+challenging conditions. The results demonstrate that while stereo-inertial and
+RGB-D configurations generally perform better under favorable lighting and
+moderate vegetation, most SLAM systems perform poorly in low-light and
+high-vegetation scenarios, particularly during summer and autumn. Our analysis
+highlights the need for improved adaptability in visual SLAM algorithms for
+outdoor applications, as current systems struggle with dynamic environmental
+factors affecting scale, feature extraction, and trajectory consistency. This
+dataset provides a solid foundation for advancing visual SLAM research in
+real-world, natural environments, fostering the development of more resilient
+SLAM systems for long-term outdoor localization and mapping. The dataset and
+the code of the benchmark are available under
+https://iis-esslingen.github.io/rover.
+</span>
+                                    </div>
+                                        <div class="article-summary-box-inner">
+                                            <span class="chip">comment</span>: <span>17 pages, 7 figures, 11 tables</span>
+                                        </div>
+                                </details>
+                            </article>
+                    </div>
+                </details>
+            </article>
+    </section>
+    <section class="day-container">
+        <div class="date">
+            <time datetime="2024-12-02T00:00:00Z">2024-12-02</time>
+        </div>
+            <article>
+                <details>
+                    <Summary>
+                        Computer Vision and Pattern Recognition <span class="chip" style="font-size: 60%">2</span>
+                    </Summary>
+                    <div class="details-content">
+                            <article>
+                                <details class="article-expander">
+                                    <summary class="article-expander-title">
+                                         ☆ RGBDS-<span class="highlight-title">SLAM</span>: A RGB-D Semantic Dense <span class="highlight-title">SLAM</span> Based on 3D Multi Level Pyramid
+  Gaussian Splatting 
+                                    </summary>
+                                    <div class="article-authors">
+                                        <a href="http://arxiv.org/abs/2412.01217v1">
+                                            <i class="ri-links-line"></i>
+                                        </a>
+                                        <a href="https://arxiv.org/pdf/2412.01217v1.pdf">
+                                            <i class="ri-file-paper-2-line"></i>
+                                        </a>
+                                        Zhenzhong Cao
+                                    </div>
+                                    <div class="article-summary-box-inner">
+                                        <span>  High-quality reconstruction is crucial for dense SLAM. Recent popular
+approaches utilize 3D Gaussian Splatting (3D GS) techniques for RGB, depth, and
+semantic reconstruction of scenes. However, these methods often overlook issues
+of detail and consistency in different parts of the scene. To address this, we
+propose RGBDS-SLAM, a RGB-D semantic dense SLAM system based on 3D multi-level
+pyramid gaussian splatting, which enables high-quality dense reconstruction of
+scene RGB, depth, and semantics.In this system, we introduce a 3D multi-level
+pyramid gaussian splatting method that restores scene details by extracting
+multi-level image pyramids for gaussian splatting training, ensuring
+consistency in RGB, depth, and semantic reconstructions. Additionally, we
+design a tightly-coupled multi-features reconstruction optimization mechanism,
+allowing the reconstruction accuracy of RGB, depth, and semantic maps to
+mutually enhance each other during the rendering optimization process.
+Extensive quantitative, qualitative, and ablation experiments on the Replica
+and ScanNet public datasets demonstrate that our proposed method outperforms
+current state-of-the-art methods. The open-source code will be available at:
+https://github.com/zhenzhongcao/RGBDS-SLAM.
+</span>
+                                    </div>
+                                </details>
+                            </article>
+                            <article>
+                                <details class="article-expander">
+                                    <summary class="article-expander-title">
+                                         ☆ Look Ma, No Ground Truth! Ground-Truth-Free Tuning of Structure from
+  Motion and Visual <span class="highlight-title">SLAM</span> 
+                                    </summary>
+                                    <div class="article-authors">
+                                        <a href="http://arxiv.org/abs/2412.01116v1">
+                                            <i class="ri-links-line"></i>
+                                        </a>
+                                        <a href="https://arxiv.org/pdf/2412.01116v1.pdf">
+                                            <i class="ri-file-paper-2-line"></i>
+                                        </a>
+                                        Alejandro Fontan, Javier Civera, Tobias Fischer, Michael Milford
+                                    </div>
+                                    <div class="article-summary-box-inner">
+                                        <span>  Evaluation is critical to both developing and tuning Structure from Motion
+(SfM) and Visual SLAM (VSLAM) systems, but is universally reliant on
+high-quality geometric ground truth -- a resource that is not only costly and
+time-intensive but, in many cases, entirely unobtainable. This dependency on
+ground truth restricts SfM and SLAM applications across diverse environments
+and limits scalability to real-world scenarios. In this work, we propose a
+novel ground-truth-free (GTF) evaluation methodology that eliminates the need
+for geometric ground truth, instead using sensitivity estimation via sampling
+from both original and noisy versions of input images. Our approach shows
+strong correlation with traditional ground-truth-based benchmarks and supports
+GTF hyperparameter tuning. Removing the need for ground truth opens up new
+opportunities to leverage a much larger number of dataset sources, and for
+self-supervised and online tuning, with the potential for a data-driven
+breakthrough analogous to what has occurred in generative AI.
+</span>
+                                    </div>
+                                </details>
+                            </article>
+                    </div>
+                </details>
+            </article>
+            <article>
+                <details>
+                    <Summary>
+                        Robotics <span class="chip" style="font-size: 60%">2</span>
+                    </Summary>
+                    <div class="details-content">
+                            <article>
+                                <details class="article-expander">
+                                    <summary class="article-expander-title">
+                                         ☆ Look Ma, No Ground Truth! Ground-Truth-Free Tuning of Structure from
+  Motion and Visual <span class="highlight-title">SLAM</span> 
+                                    </summary>
+                                    <div class="article-authors">
+                                        <a href="http://arxiv.org/abs/2412.01116v1">
+                                            <i class="ri-links-line"></i>
+                                        </a>
+                                        <a href="https://arxiv.org/pdf/2412.01116v1.pdf">
+                                            <i class="ri-file-paper-2-line"></i>
+                                        </a>
+                                        Alejandro Fontan, Javier Civera, Tobias Fischer, Michael Milford
+                                    </div>
+                                    <div class="article-summary-box-inner">
+                                        <span>  Evaluation is critical to both developing and tuning Structure from Motion
+(SfM) and Visual SLAM (VSLAM) systems, but is universally reliant on
+high-quality geometric ground truth -- a resource that is not only costly and
+time-intensive but, in many cases, entirely unobtainable. This dependency on
+ground truth restricts SfM and SLAM applications across diverse environments
+and limits scalability to real-world scenarios. In this work, we propose a
+novel ground-truth-free (GTF) evaluation methodology that eliminates the need
+for geometric ground truth, instead using sensitivity estimation via sampling
+from both original and noisy versions of input images. Our approach shows
+strong correlation with traditional ground-truth-based benchmarks and supports
+GTF hyperparameter tuning. Removing the need for ground truth opens up new
+opportunities to leverage a much larger number of dataset sources, and for
+self-supervised and online tuning, with the potential for a data-driven
+breakthrough analogous to what has occurred in generative AI.
+</span>
+                                    </div>
+                                </details>
+                            </article>
+                            <article>
+                                <details class="article-expander">
+                                    <summary class="article-expander-title">
+                                         ☆ LiDAR <span class="highlight-title">SLAM</span>MOT based on Confidence-guided Data Association 
+                                    </summary>
+                                    <div class="article-authors">
+                                        <a href="http://arxiv.org/abs/2412.01041v1">
+                                            <i class="ri-links-line"></i>
+                                        </a>
+                                        <a href="https://arxiv.org/pdf/2412.01041v1.pdf">
+                                            <i class="ri-file-paper-2-line"></i>
+                                        </a>
+                                        Susu Fang, Hao Li
+                                    </div>
+                                    <div class="article-summary-box-inner">
+                                        <span>  In the field of autonomous driving or robotics, simultaneous localization and
+mapping (SLAM) and multi-object tracking (MOT) are two fundamental problems and
+are generally applied separately. Solutions to SLAM and MOT usually rely on
+certain assumptions, such as the static environment assumption for SLAM and the
+accurate ego-vehicle pose assumption for MOT. But in complex dynamic
+environments, it is difficult or even impossible to meet these assumptions.
+Therefore, the SLAMMOT, i.e., simultaneous localization, mapping, and moving
+object tracking, integrated system of SLAM and object tracking, has emerged for
+autonomous vehicles in dynamic environments. However, many conventional SLAMMOT
+solutions directly perform data association on the predictions and detections
+for object tracking, but ignore their quality. In practice, inaccurate
+predictions caused by continuous multi-frame missed detections in temporary
+occlusion scenarios, may degrade the performance of tracking, thereby affecting
+SLAMMOT. To address this challenge, this paper presents a LiDAR SLAMMOT based
+on confidence-guided data association (Conf SLAMMOT) method, which tightly
+couples the LiDAR SLAM and the confidence-guided data association based
+multi-object tracking into a graph optimization backend for estimating the
+state of the ego-vehicle and objects simultaneously. The confidence of
+prediction and detection are applied in the factor graph-based multi-object
+tracking for its data association, which not only avoids the performance
+degradation caused by incorrect initial assignments in some filter-based
+methods but also handles issues such as continuous missed detection in tracking
+while also improving the overall performance of SLAMMOT. Various comparative
+experiments demonstrate the superior advantages of Conf SLAMMOT, especially in
+scenes with some missed detections.
+</span>
+                                    </div>
+                                </details>
+                            </article>
+                    </div>
+                </details>
+            </article>
+    </section>
+    <section class="day-container">
+        <div class="date">
+            <time datetime="2024-12-01T00:00:00Z">2024-12-01</time>
+        </div>
+            <article>
+                <details>
+                    <Summary>
+                        Computer Vision and Pattern Recognition <span class="chip" style="font-size: 60%">2</span>
+                    </Summary>
+                    <div class="details-content">
+                            <article>
+                                <details class="article-expander">
+                                    <summary class="article-expander-title">
+                                         ☆ Flash<span class="highlight-title">SLAM</span>: Accelerated RGB-D <span class="highlight-title">SLAM</span> for Real-Time 3D Scene Reconstruction
+  with Gaussian Splatting 
+                                    </summary>
+                                    <div class="article-authors">
+                                        <a href="http://arxiv.org/abs/2412.00682v1">
+                                            <i class="ri-links-line"></i>
+                                        </a>
+                                        <a href="https://arxiv.org/pdf/2412.00682v1.pdf">
+                                            <i class="ri-file-paper-2-line"></i>
+                                        </a>
+                                        Phu Pham, Damon Conover, Aniket Bera
+                                    </div>
+                                    <div class="article-summary-box-inner">
+                                        <span>  We present FlashSLAM, a novel SLAM approach that leverages 3D Gaussian
+Splatting for efficient and robust 3D scene reconstruction. Existing 3DGS-based
+SLAM methods often fall short in sparse view settings and during large camera
+movements due to their reliance on gradient descent-based optimization, which
+is both slow and inaccurate. FlashSLAM addresses these limitations by combining
+3DGS with a fast vision-based camera tracking technique, utilizing a pretrained
+feature matching model and point cloud registration for precise pose estimation
+in under 80 ms - a 90% reduction in tracking time compared to SplaTAM - without
+costly iterative rendering. In sparse settings, our method achieves up to a 92%
+improvement in average tracking accuracy over previous methods. Additionally,
+it accounts for noise in depth sensors, enhancing robustness when using
+unspecialized devices such as smartphones. Extensive experiments show that
+FlashSLAM performs reliably across both sparse and dense settings, in synthetic
+and real-world environments. Evaluations on benchmark datasets highlight its
+superior accuracy and efficiency, establishing FlashSLAM as a versatile and
+high-performance solution for SLAM, advancing the state-of-the-art in 3D
+reconstruction across diverse applications.
+</span>
+                                    </div>
+                                        <div class="article-summary-box-inner">
+                                            <span class="chip">comment</span>: <span>16 pages, 9 figures, 13 tables</span>
+                                        </div>
+                                </details>
+                            </article>
+                            <article>
+                                <details class="article-expander">
+                                    <summary class="article-expander-title">
+                                         ☆ MIMIC: Multimodal I<span class="highlight-title">slam</span>ophobic Meme Identification and Classification <span class="chip">NeurIPS 2024</span>
+                                    </summary>
+                                    <div class="article-authors">
+                                        <a href="http://arxiv.org/abs/2412.00681v1">
+                                            <i class="ri-links-line"></i>
+                                        </a>
+                                        <a href="https://arxiv.org/pdf/2412.00681v1.pdf">
+                                            <i class="ri-file-paper-2-line"></i>
+                                        </a>
+                                        S M Jishanul Islam, Sahid Hossain Mustakim, Sadia Ahmmed, Md. Faiyaz Abdullah Sayeedi, Swapnil Khandoker, Syed Tasdid Azam Dhrubo, Nahid Hossain
+                                    </div>
+                                    <div class="article-summary-box-inner">
+                                        <span>  Anti-Muslim hate speech has emerged within memes, characterized by
+context-dependent and rhetorical messages using text and images that seemingly
+mimic humor but convey Islamophobic sentiments. This work presents a novel
+dataset and proposes a classifier based on the Vision-and-Language Transformer
+(ViLT) specifically tailored to identify anti-Muslim hate within memes by
+integrating both visual and textual representations. Our model leverages joint
+modal embeddings between meme images and incorporated text to capture nuanced
+Islamophobic narratives that are unique to meme culture, providing both high
+detection accuracy and interoperability.
+</span>
+                                    </div>
+                                        <div class="article-summary-box-inner">
+                                            <span class="chip">comment</span>: <span>Accepted (Poster) - NeurIPS 2024 Workshop MusIML</span>
+                                        </div>
+                                </details>
+                            </article>
+                    </div>
+                </details>
+            </article>
+            <article>
+                <details>
+                    <Summary>
+                        Robotics <span class="chip" style="font-size: 60%">0</span>
+                    </Summary>
+                    <div class="details-content">
+                    </div>
+                </details>
+            </article>
+    </section>
+    <section class="day-container">
+        <div class="date">
+            <time datetime="2024-11-30T00:00:00Z">2024-11-30</time>
+        </div>
+            <article>
+                <details>
+                    <Summary>
+                        Computer Vision and Pattern Recognition <span class="chip" style="font-size: 60%">0</span>
+                    </Summary>
+                    <div class="details-content">
+                    </div>
+                </details>
+            </article>
+            <article>
+                <details>
+                    <Summary>
+                        Robotics <span class="chip" style="font-size: 60%">0</span>
+                    </Summary>
+                    <div class="details-content">
+                    </div>
+                </details>
+            </article>
+    </section>
+    <section class="day-container">
+        <div class="date">
+            <time datetime="2024-11-29T00:00:00Z">2024-11-29</time>
+        </div>
+            <article>
+                <details>
+                    <Summary>
+                        Computer Vision and Pattern Recognition <span class="chip" style="font-size: 60%">2</span>
+                    </Summary>
+                    <div class="details-content">
+                            <article>
+                                <details class="article-expander">
+                                    <summary class="article-expander-title">
+                                         ☆ Uni-<span class="highlight-title">SLAM</span>: Uncertainty-Aware Neural Implicit <span class="highlight-title">SLAM</span> for Real-Time Dense
+  Indoor Scene Reconstruction <span class="chip">WACV 2025</span>
+                                    </summary>
+                                    <div class="article-authors">
+                                        <a href="http://arxiv.org/abs/2412.00242v1">
+                                            <i class="ri-links-line"></i>
+                                        </a>
+                                        <a href="https://arxiv.org/pdf/2412.00242v1.pdf">
+                                            <i class="ri-file-paper-2-line"></i>
+                                        </a>
+                                        Shaoxiang Wang, Yaxu Xie, Chun-Peng Chang, Christen Millerdurai, Alain Pagani, Didier Stricker
+                                    </div>
+                                    <div class="article-summary-box-inner">
+                                        <span>  Neural implicit fields have recently emerged as a powerful representation
+method for multi-view surface reconstruction due to their simplicity and
+state-of-the-art performance. However, reconstructing thin structures of indoor
+scenes while ensuring real-time performance remains a challenge for dense
+visual SLAM systems. Previous methods do not consider varying quality of input
+RGB-D data and employ fixed-frequency mapping process to reconstruct the scene,
+which could result in the loss of valuable information in some frames. In this
+paper, we propose Uni-SLAM, a decoupled 3D spatial representation based on hash
+grids for indoor reconstruction. We introduce a novel defined predictive
+uncertainty to reweight the loss function, along with strategic local-to-global
+bundle adjustment. Experiments on synthetic and real-world datasets demonstrate
+that our system achieves state-of-the-art tracking and mapping accuracy while
+maintaining real-time performance. It significantly improves over current
+methods with a 25% reduction in depth L1 error and a 66.86% completion rate
+within 1 cm on the Replica dataset, reflecting a more accurate reconstruction
+of thin structures. Project page:
+https://shaoxiang777.github.io/project/uni-slam/
+</span>
+                                    </div>
+                                        <div class="article-summary-box-inner">
+                                            <span class="chip">comment</span>: <span>Winter Conference on Applications of Computer Vision (WACV 2025)</span>
+                                        </div>
+                                </details>
+                            </article>
+                            <article>
+                                <details class="article-expander">
+                                    <summary class="article-expander-title">
+                                        ♻ ☆ DROID-Splat: Combining end-to-end <span class="highlight-title">SLAM</span> with 3D Gaussian Splatting 
+                                    </summary>
+                                    <div class="article-authors">
+                                        <a href="http://arxiv.org/abs/2411.17660v2">
+                                            <i class="ri-links-line"></i>
+                                        </a>
+                                        <a href="https://arxiv.org/pdf/2411.17660v2.pdf">
+                                            <i class="ri-file-paper-2-line"></i>
+                                        </a>
+                                        Christian Homeyer, Leon Begiristain, Christoph Schnörr
+                                    </div>
+                                    <div class="article-summary-box-inner">
+                                        <span>  Recent progress in scene synthesis makes standalone SLAM systems purely based
+on optimizing hyperprimitives with a Rendering objective possible. However, the
+tracking performance still lacks behind traditional and end-to-end SLAM
+systems. An optimal trade-off between robustness, speed and accuracy has not
+yet been reached, especially for monocular video. In this paper, we introduce a
+SLAM system based on an end-to-end Tracker and extend it with a Renderer based
+on recent 3D Gaussian Splatting techniques. Our framework \textbf{DroidSplat}
+achieves both SotA tracking and rendering results on common SLAM benchmarks. We
+implemented multiple building blocks of modern SLAM systems to run in parallel,
+allowing for fast inference on common consumer GPU's. Recent progress in
+monocular depth prediction and camera calibration allows our system to achieve
+strong results even on in-the-wild data without known camera intrinsics. Code
+will be available at \url{https://github.com/ChenHoy/DROID-Splat}.
+</span>
+                                    </div>
+                                </details>
+                            </article>
+                    </div>
+                </details>
+            </article>
+            <article>
+                <details>
+                    <Summary>
+                        Robotics <span class="chip" style="font-size: 60%">1</span>
+                    </Summary>
+                    <div class="details-content">
+                            <article>
+                                <details class="article-expander">
+                                    <summary class="article-expander-title">
+                                        ♻ ☆ Slide<span class="highlight-title">SLAM</span>: Sparse, Lightweight, Decentralized Metric-Semantic <span class="highlight-title">SLAM</span> for
+  Multi-Robot Navigation 
+                                    </summary>
+                                    <div class="article-authors">
+                                        <a href="http://arxiv.org/abs/2406.17249v4">
+                                            <i class="ri-links-line"></i>
+                                        </a>
+                                        <a href="https://arxiv.org/pdf/2406.17249v4.pdf">
+                                            <i class="ri-file-paper-2-line"></i>
+                                        </a>
+                                        Xu Liu, Jiuzhou Lei, Ankit Prabhu, Yuezhan Tao, Igor Spasojevic, Pratik Chaudhari, Nikolay Atanasov, Vijay Kumar
+                                    </div>
+                                    <div class="article-summary-box-inner">
+                                        <span>  This paper develops a real-time decentralized metric-semantic Simultaneous
+Localization and Mapping (SLAM) algorithm framework that enables a
+heterogeneous robot team to collaboratively construct object-based
+metric-semantic maps of 3D environments featuring indoor, urban, and forests
+without relying on GPS. The framework integrates a data-driven front-end for
+instance segmentation from either RGBD cameras or LiDARs and a custom back-end
+for optimizing robot trajectories and object landmarks in the map. To allow
+multiple robots to merge their information, we design semantics-driven place
+recognition algorithms that leverage the informativeness and viewpoint
+invariance of the object-level metric-semantic map for inter-robot loop closure
+detection. A communication module is designed to track each robot's
+observations and those of other robots whenever communication links are
+available. Our framework enables real-time decentralized operations onboard
+robots, allowing them to opportunistically leverage communication. We integrate
+the proposed framework with the autonomous navigation and exploration systems
+of three types of aerial and ground robots, conducting extensive experiments in
+a variety of indoor and outdoor environments. These experiments demonstrate
+accuracy in inter-robot localization and object mapping, along with its
+moderate demands on computation, storage, and communication resources. The
+framework is open-sourced and available as a modular stack for object-level
+metric-semantic SLAM, suitable for both single-agent and multi-robot scenarios.
+The project website and code can be found at
+https://xurobotics.github.io/slideslam/ and
+https://github.com/XuRobotics/SLIDE_SLAM, respectively.
+</span>
+                                    </div>
+                                        <div class="article-summary-box-inner">
+                                            <span class="chip">comment</span>: <span>Xu Liu, Jiuzhou Lei, and Ankit Prabhu contributed equally to this
+  work. This is a preliminary release and is subject to improvement</span>
+                                        </div>
+                                </details>
+                            </article>
+                    </div>
+                </details>
+            </article>
+    </section>
+
+</body>
+
+<footer>
+    <div>
+        <time id="build-timestamp" datetime="2024-12-07T05:30:34.566803431Z">
+            2024-12-07 05:30:34 UTC
+        </time>
+    </div>
+</footer>
+<script src="index.js"></script>
+</html>
