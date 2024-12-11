@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MyArxiv</title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="robots" content="noindex, nofollow"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+    <link href="index.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css"
+          integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css"
+          integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"
+            integrity="sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx"
+            crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js"
+            integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR"
+            crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            renderMathInElement(document.body, {
+                // customised options
+                // • auto-render specific keys, e.g.:
+                delimiters: [
+                    {left: '$$', right: '$$', display: true},
+                    {left: '$', right: '$', display: false},
+                    {left: '\\(', right: '\\)', display: false},
+                    {left: '\\[', right: '\\]', display: true},
+                    {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+                    {left: "\\begin{align}", right: "\\end{align}", display: true},
+                    {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+                    {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+                    {left: "\\begin{CD}", right: "\\end{CD}", display: true},
+                ],
+                // • rendering keys, e.g.:
+                throwOnError: false
+            });
+        });
+    </script>
+</head>
+
+<body>
+<section class="header-container">
+    <div style="display:flex; justify-content:space-between; align-items:flex-end;">
+        <div>
+            <div class="header-title">
+                MyArxiv
+            </div>
+        </div>
+
+        <div class=icons>
+            <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox"/>
+                <i id="theme-icon" class="ri-moon-line" style="font-size: 32px" rel="noopener noreferrer"></i>
+            </label>
+        </div>
+    </div>
+</section>
+
+    <section class="day-container">
+        <div class="date">
+            <time datetime="2024-12-10T00:00:00Z">2024-12-10</time>
+        </div>
+            <article>
+                <details>
+                    <Summary>
+                        Computer Vision and Pattern Recognition <span class="chip" style="font-size: 60%">0</span>
+                    </Summary>
+                    <div class="details-content">
+                    </div>
+                </details>
+            </article>
+            <article>
+                <details>
+                    <Summary>
+                        Robotics <span class="chip" style="font-size: 60%">1</span>
+                    </Summary>
+                    <div class="details-content">
+                            <article>
+                                <details class="article-expander">
+                                    <summary class="article-expander-title">
+                                         ☆ A Real-time Degeneracy Sensing and Compensation Method for Enhanced
+  LiDAR <span class="highlight-title">SLAM</span> 
+                                    </summary>
+                                    <div class="article-authors">
+                                        <a href="http://arxiv.org/abs/2412.07513v1">
+                                            <i class="ri-links-line"></i>
+                                        </a>
+                                        <a href="https://arxiv.org/pdf/2412.07513v1.pdf">
+                                            <i class="ri-file-paper-2-line"></i>
+                                        </a>
+                                        Zongbo Liao, Xuanxuan Zhang, Tianxiang Zhang, Zhi Li, Zhenqi Zheng, Zhichao Wen, You Li
+                                    </div>
+                                    <div class="article-summary-box-inner">
+                                        <span>  LiDAR is widely used in Simultaneous Localization and Mapping (SLAM) and
+autonomous driving. The LiDAR odometry is of great importance in multi-sensor
+fusion. However, in some unstructured environments, the point cloud
+registration cannot constrain the poses of the LiDAR due to its sparse
+geometric features, which leads to the degeneracy of multi-sensor fusion
+accuracy. To address this problem, we propose a novel real-time approach to
+sense and compensate for the degeneracy of LiDAR. Firstly, this paper
+introduces the degeneracy factor with clear meaning, which can measure the
+degeneracy of LiDAR. Then, the Density-Based Spatial Clustering of Applications
+with Noise (DBSCAN) clustering method adaptively perceives the degeneracy with
+better environmental generalization. Finally, the degeneracy perception results
+are utilized to fuse LiDAR and IMU, thus effectively resisting degeneracy
+effects. Experiments on our dataset show the method's high accuracy and
+robustness and validate our algorithm's adaptability to different environments
+and LiDAR scanning modalities.
+</span>
+                                    </div>
+                                        <div class="article-summary-box-inner">
+                                            <span class="chip">comment</span>: <span>13 pages</span>
+                                        </div>
+                                </details>
+                            </article>
+                    </div>
+                </details>
+            </article>
+    </section>
+    <section class="day-container">
+        <div class="date">
+            <time datetime="2024-12-09T00:00:00Z">2024-12-09</time>
+        </div>
+            <article>
+                <details>
+                    <Summary>
+                        Computer Vision and Pattern Recognition <span class="chip" style="font-size: 60%">0</span>
+                    </Summary>
+                    <div class="details-content">
+                    </div>
+                </details>
+            </article>
+            <article>
+                <details>
+                    <Summary>
+                        Robotics <span class="chip" style="font-size: 60%">0</span>
+                    </Summary>
+                    <div class="details-content">
+                    </div>
+                </details>
+            </article>
+    </section>
+    <section class="day-container">
+        <div class="date">
+            <time datetime="2024-12-08T00:00:00Z">2024-12-08</time>
+        </div>
+            <article>
+                <details>
+                    <Summary>
+                        Computer Vision and Pattern Recognition <span class="chip" style="font-size: 60%">0</span>
+                    </Summary>
+                    <div class="details-content">
+                    </div>
+                </details>
+            </article>
+            <article>
+                <details>
+                    <Summary>
+                        Robotics <span class="chip" style="font-size: 60%">1</span>
+                    </Summary>
+                    <div class="details-content">
+                            <article>
+                                <details class="article-expander">
+                                    <summary class="article-expander-title">
+                                         ☆ DiTer++: Diverse Terrain and Multi-modal Dataset for Multi-Robot <span class="highlight-title">SLAM</span> in
+  Multi-session Environments 
+                                    </summary>
+                                    <div class="article-authors">
+                                        <a href="http://arxiv.org/abs/2412.05839v1">
+                                            <i class="ri-links-line"></i>
+                                        </a>
+                                        <a href="https://arxiv.org/pdf/2412.05839v1.pdf">
+                                            <i class="ri-file-paper-2-line"></i>
+                                        </a>
+                                        Juwon Kim, Hogyun Kim, Seokhwan Jeong, Youngsik Shin, Younggun Cho
+                                    </div>
+                                    <div class="article-summary-box-inner">
+                                        <span>  We encounter large-scale environments where both structured and unstructured
+spaces coexist, such as on campuses. In this environment, lighting conditions
+and dynamic objects change constantly. To tackle the challenges of large-scale
+mapping under such conditions, we introduce DiTer++, a diverse terrain and
+multi-modal dataset designed for multi-robot SLAM in multi-session
+environments. According to our datasets' scenarios, Agent-A and Agent-B scan
+the area designated for efficient large-scale mapping day and night,
+respectively. Also, we utilize legged robots for terrain-agnostic traversing.
+To generate the ground-truth of each robot, we first build the survey-grade
+prior map. Then, we remove the dynamic objects and outliers from the prior map
+and extract the trajectory through scan-to-map matching. Our dataset and
+supplement materials are available at
+https://sites.google.com/view/diter-plusplus/.
+</span>
+                                    </div>
+                                </details>
+                            </article>
+                    </div>
+                </details>
+            </article>
+    </section>
+    <section class="day-container">
+        <div class="date">
+            <time datetime="2024-12-07T00:00:00Z">2024-12-07</time>
+        </div>
+            <article>
+                <details>
+                    <Summary>
+                        Computer Vision and Pattern Recognition <span class="chip" style="font-size: 60%">0</span>
+                    </Summary>
+                    <div class="details-content">
+                    </div>
+                </details>
+            </article>
+            <article>
+                <details>
+                    <Summary>
+                        Robotics <span class="chip" style="font-size: 60%">0</span>
+                    </Summary>
+                    <div class="details-content">
+                    </div>
+                </details>
+            </article>
+    </section>
+    <section class="day-container">
+        <div class="date">
+            <time datetime="2024-12-06T00:00:00Z">2024-12-06</time>
+        </div>
+            <article>
+                <details>
+                    <Summary>
+                        Computer Vision and Pattern Recognition <span class="chip" style="font-size: 60%">0</span>
+                    </Summary>
+                    <div class="details-content">
+                    </div>
+                </details>
+            </article>
+            <article>
+                <details>
+                    <Summary>
+                        Robotics <span class="chip" style="font-size: 60%">0</span>
+                    </Summary>
+                    <div class="details-content">
+                    </div>
+                </details>
+            </article>
+    </section>
+    <section class="day-container">
+        <div class="date">
+            <time datetime="2024-12-05T00:00:00Z">2024-12-05</time>
+        </div>
+            <article>
+                <details>
+                    <Summary>
+                        Computer Vision and Pattern Recognition <span class="chip" style="font-size: 60%">0</span>
+                    </Summary>
+                    <div class="details-content">
+                    </div>
+                </details>
+            </article>
+            <article>
+                <details>
+                    <Summary>
+                        Robotics <span class="chip" style="font-size: 60%">0</span>
+                    </Summary>
+                    <div class="details-content">
+                    </div>
+                </details>
+            </article>
+    </section>
+    <section class="day-container">
+        <div class="date">
+            <time datetime="2024-12-04T00:00:00Z">2024-12-04</time>
+        </div>
+            <article>
+                <details>
+                    <Summary>
+                        Computer Vision and Pattern Recognition <span class="chip" style="font-size: 60%">2</span>
+                    </Summary>
+                    <div class="details-content">
+                            <article>
+                                <details class="article-expander">
+                                    <summary class="article-expander-title">
+                                         ☆ NeRF and Gaussian Splatting <span class="highlight-title">SLAM</span> in the Wild 
+                                    </summary>
+                                    <div class="article-authors">
+                                        <a href="http://arxiv.org/abs/2412.03263v1">
+                                            <i class="ri-links-line"></i>
+                                        </a>
+                                        <a href="https://arxiv.org/pdf/2412.03263v1.pdf">
+                                            <i class="ri-file-paper-2-line"></i>
+                                        </a>
+                                        Fabian Schmidt, Markus Enzweiler, Abhinav Valada
+                                    </div>
+                                    <div class="article-summary-box-inner">
+                                        <span>  Navigating outdoor environments with visual Simultaneous Localization and
+Mapping (SLAM) systems poses significant challenges due to dynamic scenes,
+lighting variations, and seasonal changes, requiring robust solutions. While
+traditional SLAM methods struggle with adaptability, deep learning-based
+approaches and emerging neural radiance fields as well as Gaussian
+Splatting-based SLAM methods, offer promising alternatives. However, these
+methods have primarily been evaluated in controlled indoor environments with
+stable conditions, leaving a gap in understanding their performance in
+unstructured and variable outdoor settings. This study addresses this gap by
+evaluating these methods in natural outdoor environments, focusing on camera
+tracking accuracy, robustness to environmental factors, and computational
+efficiency, highlighting distinct trade-offs. Extensive evaluations demonstrate
+that neural SLAM methods achieve superior robustness, particularly under
+challenging conditions such as low light, but at a high computational cost. At
+the same time, traditional methods perform the best across seasons but are
+highly sensitive to variations in lighting conditions. The code of the
+benchmark is publicly available at
+https://github.com/iis-esslingen/nerf-3dgs-benchmark.
+</span>
+                                    </div>
+                                        <div class="article-summary-box-inner">
+                                            <span class="chip">comment</span>: <span>5 pages, 2 figures, 4 tables</span>
+                                        </div>
+                                </details>
+                            </article>
+                            <article>
+                                <details class="article-expander">
+                                    <summary class="article-expander-title">
+                                        ♻ ☆ RGBDS-<span class="highlight-title">SLAM</span>: A RGB-D Semantic Dense <span class="highlight-title">SLAM</span> Based on 3D Multi Level Pyramid
+  Gaussian Splatting 
+                                    </summary>
+                                    <div class="article-authors">
+                                        <a href="http://arxiv.org/abs/2412.01217v2">
+                                            <i class="ri-links-line"></i>
+                                        </a>
+                                        <a href="https://arxiv.org/pdf/2412.01217v2.pdf">
+                                            <i class="ri-file-paper-2-line"></i>
+                                        </a>
+                                        Zhenzhong Cao, Chenyang Zhao, Qianyi Zhang, Jinzheng Guang, Yinuo Song Jingtai Liu
+                                    </div>
+                                    <div class="article-summary-box-inner">
+                                        <span>  High-quality reconstruction is crucial for dense SLAM. Recent popular
+approaches utilize 3D Gaussian Splatting (3D GS) techniques for RGB, depth, and
+semantic reconstruction of scenes. However, these methods often overlook issues
+of detail and consistency in different parts of the scene. To address this, we
+propose RGBDS-SLAM, a RGB-D semantic dense SLAM system based on 3D multi-level
+pyramid gaussian splatting, which enables high-quality dense reconstruction of
+scene RGB, depth, and semantics.In this system, we introduce a 3D multi-level
+pyramid gaussian splatting method that restores scene details by extracting
+multi-level image pyramids for gaussian splatting training, ensuring
+consistency in RGB, depth, and semantic reconstructions. Additionally, we
+design a tightly-coupled multi-features reconstruction optimization mechanism,
+allowing the reconstruction accuracy of RGB, depth, and semantic maps to
+mutually enhance each other during the rendering optimization process.
+Extensive quantitative, qualitative, and ablation experiments on the Replica
+and ScanNet public datasets demonstrate that our proposed method outperforms
+current state-of-the-art methods. The open-source code will be available at:
+https://github.com/zhenzhongcao/RGBDS-SLAM.
+</span>
+                                    </div>
+                                </details>
+                            </article>
+                    </div>
+                </details>
+            </article>
+            <article>
+                <details>
+                    <Summary>
+                        Robotics <span class="chip" style="font-size: 60%">1</span>
+                    </Summary>
+                    <div class="details-content">
+                            <article>
+                                <details class="article-expander">
+                                    <summary class="article-expander-title">
+                                         ☆ NeRF and Gaussian Splatting <span class="highlight-title">SLAM</span> in the Wild 
+                                    </summary>
+                                    <div class="article-authors">
+                                        <a href="http://arxiv.org/abs/2412.03263v1">
+                                            <i class="ri-links-line"></i>
+                                        </a>
+                                        <a href="https://arxiv.org/pdf/2412.03263v1.pdf">
+                                            <i class="ri-file-paper-2-line"></i>
+                                        </a>
+                                        Fabian Schmidt, Markus Enzweiler, Abhinav Valada
+                                    </div>
+                                    <div class="article-summary-box-inner">
+                                        <span>  Navigating outdoor environments with visual Simultaneous Localization and
+Mapping (SLAM) systems poses significant challenges due to dynamic scenes,
+lighting variations, and seasonal changes, requiring robust solutions. While
+traditional SLAM methods struggle with adaptability, deep learning-based
+approaches and emerging neural radiance fields as well as Gaussian
+Splatting-based SLAM methods, offer promising alternatives. However, these
+methods have primarily been evaluated in controlled indoor environments with
+stable conditions, leaving a gap in understanding their performance in
+unstructured and variable outdoor settings. This study addresses this gap by
+evaluating these methods in natural outdoor environments, focusing on camera
+tracking accuracy, robustness to environmental factors, and computational
+efficiency, highlighting distinct trade-offs. Extensive evaluations demonstrate
+that neural SLAM methods achieve superior robustness, particularly under
+challenging conditions such as low light, but at a high computational cost. At
+the same time, traditional methods perform the best across seasons but are
+highly sensitive to variations in lighting conditions. The code of the
+benchmark is publicly available at
+https://github.com/iis-esslingen/nerf-3dgs-benchmark.
+</span>
+                                    </div>
+                                        <div class="article-summary-box-inner">
+                                            <span class="chip">comment</span>: <span>5 pages, 2 figures, 4 tables</span>
+                                        </div>
+                                </details>
+                            </article>
+                    </div>
+                </details>
+            </article>
+    </section>
+    <section class="day-container">
+        <div class="date">
+            <time datetime="2024-12-03T00:00:00Z">2024-12-03</time>
+        </div>
+            <article>
+                <details>
+                    <Summary>
+                        Computer Vision and Pattern Recognition <span class="chip" style="font-size: 60%">1</span>
+                    </Summary>
+                    <div class="details-content">
+                            <article>
+                                <details class="article-expander">
+                                    <summary class="article-expander-title">
+                                         ☆ ROVER: A Multi-Season Dataset for Visual <span class="highlight-title">SLAM</span> 
+                                    </summary>
+                                    <div class="article-authors">
+                                        <a href="http://arxiv.org/abs/2412.02506v1">
+                                            <i class="ri-links-line"></i>
+                                        </a>
+                                        <a href="https://arxiv.org/pdf/2412.02506v1.pdf">
+                                            <i class="ri-file-paper-2-line"></i>
+                                        </a>
+                                        Fabian Schmidt, Constantin Blessing, Markus Enzweiler, Abhinav Valada
+                                    </div>
+                                    <div class="article-summary-box-inner">
+                                        <span>  Robust Simultaneous Localization and Mapping (SLAM) is a crucial enabler for
+autonomous navigation in natural, unstructured environments such as parks and
+gardens. However, these environments present unique challenges for SLAM due to
+frequent seasonal changes, varying light conditions, and dense vegetation.
+These factors often degrade the performance of visual SLAM algorithms
+originally developed for structured urban environments. To address this gap, we
+present ROVER, a comprehensive benchmark dataset tailored for evaluating visual
+SLAM algorithms under diverse environmental conditions and spatial
+configurations. We captured the dataset with a robotic platform equipped with
+monocular, stereo, and RGB-D cameras, as well as inertial sensors. It covers 39
+recordings across five outdoor locations, collected through all seasons and
+various lighting scenarios, i.e., day, dusk, and night with and without
+external lighting. With this novel dataset, we evaluate several traditional and
+deep learning-based SLAM methods and study their performance in diverse
+challenging conditions. The results demonstrate that while stereo-inertial and
+RGB-D configurations generally perform better under favorable lighting and
+moderate vegetation, most SLAM systems perform poorly in low-light and
+high-vegetation scenarios, particularly during summer and autumn. Our analysis
+highlights the need for improved adaptability in visual SLAM algorithms for
+outdoor applications, as current systems struggle with dynamic environmental
+factors affecting scale, feature extraction, and trajectory consistency. This
+dataset provides a solid foundation for advancing visual SLAM research in
+real-world, natural environments, fostering the development of more resilient
+SLAM systems for long-term outdoor localization and mapping. The dataset and
+the code of the benchmark are available under
+https://iis-esslingen.github.io/rover.
+</span>
+                                    </div>
+                                        <div class="article-summary-box-inner">
+                                            <span class="chip">comment</span>: <span>17 pages, 7 figures, 11 tables</span>
+                                        </div>
+                                </details>
+                            </article>
+                    </div>
+                </details>
+            </article>
+            <article>
+                <details>
+                    <Summary>
+                        Robotics <span class="chip" style="font-size: 60%">1</span>
+                    </Summary>
+                    <div class="details-content">
+                            <article>
+                                <details class="article-expander">
+                                    <summary class="article-expander-title">
+                                         ☆ ROVER: A Multi-Season Dataset for Visual <span class="highlight-title">SLAM</span> 
+                                    </summary>
+                                    <div class="article-authors">
+                                        <a href="http://arxiv.org/abs/2412.02506v1">
+                                            <i class="ri-links-line"></i>
+                                        </a>
+                                        <a href="https://arxiv.org/pdf/2412.02506v1.pdf">
+                                            <i class="ri-file-paper-2-line"></i>
+                                        </a>
+                                        Fabian Schmidt, Constantin Blessing, Markus Enzweiler, Abhinav Valada
+                                    </div>
+                                    <div class="article-summary-box-inner">
+                                        <span>  Robust Simultaneous Localization and Mapping (SLAM) is a crucial enabler for
+autonomous navigation in natural, unstructured environments such as parks and
+gardens. However, these environments present unique challenges for SLAM due to
+frequent seasonal changes, varying light conditions, and dense vegetation.
+These factors often degrade the performance of visual SLAM algorithms
+originally developed for structured urban environments. To address this gap, we
+present ROVER, a comprehensive benchmark dataset tailored for evaluating visual
+SLAM algorithms under diverse environmental conditions and spatial
+configurations. We captured the dataset with a robotic platform equipped with
+monocular, stereo, and RGB-D cameras, as well as inertial sensors. It covers 39
+recordings across five outdoor locations, collected through all seasons and
+various lighting scenarios, i.e., day, dusk, and night with and without
+external lighting. With this novel dataset, we evaluate several traditional and
+deep learning-based SLAM methods and study their performance in diverse
+challenging conditions. The results demonstrate that while stereo-inertial and
+RGB-D configurations generally perform better under favorable lighting and
+moderate vegetation, most SLAM systems perform poorly in low-light and
+high-vegetation scenarios, particularly during summer and autumn. Our analysis
+highlights the need for improved adaptability in visual SLAM algorithms for
+outdoor applications, as current systems struggle with dynamic environmental
+factors affecting scale, feature extraction, and trajectory consistency. This
+dataset provides a solid foundation for advancing visual SLAM research in
+real-world, natural environments, fostering the development of more resilient
+SLAM systems for long-term outdoor localization and mapping. The dataset and
+the code of the benchmark are available under
+https://iis-esslingen.github.io/rover.
+</span>
+                                    </div>
+                                        <div class="article-summary-box-inner">
+                                            <span class="chip">comment</span>: <span>17 pages, 7 figures, 11 tables</span>
+                                        </div>
+                                </details>
+                            </article>
+                    </div>
+                </details>
+            </article>
+    </section>
+
+</body>
+
+<footer>
+    <div>
+        <time id="build-timestamp" datetime="2024-12-11T05:31:35.162264045Z">
+            2024-12-11 05:31:35 UTC
+        </time>
+    </div>
+</footer>
+<script src="index.js"></script>
+</html>
